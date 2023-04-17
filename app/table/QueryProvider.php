@@ -43,9 +43,9 @@ class QueryProvider extends DatabasePdoConnection
      *
      * @return null|array<mixed>
      *
-     * @$query example: 'SELECT * FROM users WHERE email = :email'
+     * $query example: 'SELECT * FROM users WHERE email = :email'
      *
-     * @arrayBindKeyValue Example [':email' => 'some@me.com']
+     * arrayBindKeyValue Example [':email' => 'some@me.com']
      */
     public function selectQuery(string $selectQuery, array $arrayBindKeyValue = []): array|null
     {

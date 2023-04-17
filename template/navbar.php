@@ -24,6 +24,10 @@
           <a class="nav-link" href="shop.php">shop</a>
         </li>
         </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="logout.php">logout</a>
+        </li>
       </ul>
     </div>
   </div>
